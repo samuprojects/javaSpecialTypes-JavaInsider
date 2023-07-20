@@ -3,7 +3,7 @@ package enums;
 @SuppressWarnings("ALL")
 public class EnumApp1 {
 
-    enum Month { // enum é um tipo de dado
+    private enum Month { // enum é um tipo de dado
 
         JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
     }
