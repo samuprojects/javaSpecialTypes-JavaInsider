@@ -25,4 +25,9 @@ public enum Month {
     public int getMonthNum(){ // método get para retornar o número (definido com atributo) do enum
         return monthNum;
     }
+
+    @Override
+    public String toString() { // toString sobrescrito para trazer um texto personalizado e o nome do enum
+        return "Month: " + name();
+    }
 }
